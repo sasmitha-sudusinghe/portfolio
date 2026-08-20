@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sasmitha Sudusinghe — Undergraduate Student &amp; Photographer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-backdrop"></div>
+<div class="grain"></div>
+<div class="scanlines"></div>
+
+<nav class="nav">
+  <a href="#top" class="nav-mark">[SS]</a>
+  <div class="nav-links">
+    <a href="#work"><span class="idx">01</span>Work</a>
+    <a href="#photo"><span class="idx">02</span>Photography</a>
+    <a href="#about"><span class="idx">03</span>About</a>
+    <a href="#contact"><span class="idx">04</span>Contact</a>
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="netCanvas"></canvas>
+  <div class="hero-meta">
+    <span id="clock">--:--:--</span>
+    <span class="dot">·</span>
+    <span>Colombo, LK</span>
+    <span class="dot">·</span>
+    <span id="statusLine">status: available</span>
+  </div>
+
+  <h1 class="hero-title">
+    Sasmitha Sudusinghe
+  </h1>
+  <p class="hero-tagline">
+    <span class="prompt">$</span> whoami<br>
+    <span class="typed" id="typedLine"></span><span class="cursor">▌</span>
+  </p>
+
+  <div class="hero-tags">
+    <span>backend engineer</span>
+    <span>·</span>
+    <span>documentary &amp; street photography</span>
+  </div>
+
+  <a class="scroll-hint" href="#work">scroll <span>↓</span></a>
+</header>
+
+<main>
+
+  <section class="section" id="work">
+    <div class="section-head">
+      <span class="idx">01</span>
+      <h2>Work</h2>
+      <p class="section-note">// selected projects, ordered by recency</p>
+    </div>
+
+    <div class="terminal-grid">
+
+      <article class="term-card">
+        <div class="term-bar">
+          <div class="term-dots"><span></span><span></span><span></span></div>
+          <span class="term-path">~/projects/replace-me-1</span>
+        </div>
+        <div class="term-body">
+          <h3>Mindtrack</h3>
+          <p>🧠 MindTrack — Student Mental Wellness Tracker
+The Problem
+
+University students face significant mental health challenges — exam stress, loneliness, burnout — but have no simple, anonymous way to track and reflect on their daily wellbeing.
+
+Target Users
+
+University / college students
+
+Why It Matters
+
+Mental health directly impacts academic performance. Early self-awareness through mood tracking can help students seek help before it gets serious.</p>
+          <div class="meta-strip">
+            <span>a3f9c2e</span><span>·</span><span>TypeScript / Node</span><span>·</span><span>2026</span>
+          </div>
+          <div class="term-links">
+            <a href="https://github.com/sasmitha-sudusinghe/mindtrack.git">view repo →</a>
+            
+          </div>
+        </div>
+      </article>
+
+      <article class="term-card">
+        <div class="term-bar">
+          <div class="term-dots"><span></span><span></span><span></span></div>
+          <span class="term-path">~/projects/replace-me-2</span>
+        </div>
+        <div class="term-body">
+          <h3>Skillfolio(Under Development)</h3>
+          <p>A web app where students log projects they're building, tag the skills/tech used, and track learning goals — think "GitHub contributions graph" but for skills, with a public profile page. It's relatable (you're literally building it to solve your own problem — job portfolios), which makes for a great "why I built this" story in interviews.</p>
+          <div class="meta-strip">
+            <span>7c1de40</span><span>·</span><span>Nodejs / FastAPI</span><span>·</span><span>2025</span>
+          </div>
+          <div class="term-links">
+            <a href="https://github.com/sasmitha-sudusinghe/Skillfolio.git">view repo →</a>
+            <a href="#">write-up →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="photo">
+    <div class="section-head">
+      <span class="idx">02</span>
+      <h2>Photography</h2>
+     
+    </div>
+
+    <div class="contact-sheet">
+      <figure class="frame" style="--tint: 12, 61%, 41%;">
+    <div class="frame-img">
+        <img src="images/photo1.jpg" alt="Photography 001">
+    </div>
+    <figcaption>
+        <span class="frame-no">001</span>
+        <span class="exif">35mm · f/2.8 · 1/250 · ISO 200</span>
+    </figcaption>
+</figure>
+      <figure class="frame" style="--tint: 12, 61%, 41%;">
+    <div class="frame-img">
+        <img src="images/photo2.jpg" alt="Photography 001">
+    </div>
+    <figcaption>
+        <span class="frame-no">002</span>
+        <span class="exif">35mm · f/2.8 · 1/250 · ISO 200</span>
+    </figcaption>
+</figure>
+      <figure class="frame" style="--tint: 12, 61%, 41%;">
+    <div class="frame-img">
+        <img src="images/photo3.jpg" alt="Photography 001">
+    </div>
+    <figcaption>
+        <span class="frame-no">003</span>
+        <span class="exif">35mm · f/2.8 · 1/250 · ISO 200</span>
+    </figcaption>
+</figure>
+      <figure class="frame" style="--tint: 12, 61%, 41%;">
+    <div class="frame-img">
+        <img src="images/photo4.jpg" alt="Photography 001">
+    </div>
+    <figcaption>
+        <span class="frame-no">003</span>
+        <span class="exif">35mm · f/2.8 · 1/250 · ISO 200</span>
+    </figcaption>
+      </figure>
+      <figure class="frame" style="--tint: 12, 61%, 41%;">
+    <div class="frame-img">
+        <img src="images/photo5.jpg" alt="Photography 001">
+    </div>
+    <figcaption>
+        <span class="frame-no">003</span>
+        <span class="exif">35mm · f/2.8 · 1/250 · ISO 200</span>
+    </figcaption>
+      </figure>
+      <figure class="frame" style="--tint: 12, 61%, 41%;">
+    <div class="frame-img">
+        <img src="images/photo6.jpg" alt="Photography 001">
+    </div>
+    <figcaption>
+        <span class="frame-no">003</span>
+        <span class="exif">35mm · f/2.8 · 1/250 · ISO 200</span>
+    </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="idx">03</span>
+      <h2>About</h2>
+    </div>
+
+    <div class="about-grid">
+      <p class="about-bio">
+        Hello! I’m Sasmitha Sudusinghe, a passionate undergraduate (3rd year) pursuing a Bachelor of Science in Information Technology at University Of Vavuniya (UOV).
+
+      </p>
+
+      <div class="about-meta">
+        <div class="meta-block">
+          <h4>stack</h4>
+          <ul>
+            <li>TypeScript / Python / Go</li>
+            <li>React · Node · Postgres</li>
+            <li>AWS · Docker · CI/CD</li>
+          </ul>
+        </div>
+        <div class="meta-block">
+          <h4>gear</h4>
+          <ul>
+            <li>Fujifilm X-T5</li>
+            <li>35mm f/1.4 · 50mm f/1.2</li>
+            <li>Ilford HP5, developed at home</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-contact" id="contact">
+    <div class="section-head">
+      <span class="idx">04</span>
+      <h2>Contact</h2>
+    </div>
+    <div class="contact-body">
+      <p>Open to freelance work, collaborations, and prints.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:sasmithasudusinghe@gmail.com">sasmithasudusinghe@gmail.com</a></li>
+        <li><a href="https://github.com/sasmitha-sudusinghe">github.com/sasmitha-sudusinghe</a></li>
+        <li><a href="https://www.linkedin.com/in/sasmitha-sudusinghe-00a456290">linkedin.com/in/sasmitha-sudusinghe</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Sasmitha Sudusinghe</span>
+  <span>built with html · css · js</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

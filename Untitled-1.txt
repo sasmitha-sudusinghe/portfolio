@@ -1,0 +1,10 @@
+import java.util.*;
+
+public SubsetSum{ 
+    static boolean isSubsetSum(int[] arr,int n,int sum){
+        if(sum==0)return true;
+        if(n==0)return false;
+
+        
+    }
+}
