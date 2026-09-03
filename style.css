@@ -102,18 +102,15 @@ a { color: inherit; text-decoration: none; }
 /* ============================================
    NAV
    ============================================ */
-.nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  display: flex;
+.nav-mark {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 1.25rem var(--edge);
-  background: linear-gradient(to bottom, rgba(5,7,13,0.92), rgba(5,7,13,0));
-  backdrop-filter: blur(6px);
-  transition: border-color 0.3s ease, background 0.3s ease;
-  border-bottom: 1px solid transparent;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav-mark svg {
+  display: block;
 }
 .nav.is-scrolled {
   background: rgba(5,7,13,0.82);
